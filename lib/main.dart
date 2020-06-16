@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './category_screen.dart';
+import './categorymeal.dart';
 
 void main() => runApp(MyApp());
 
@@ -10,11 +11,13 @@ class MyApp extends StatelessWidget {
       home: CategoryScreen(),
       title: "Kitchen App",
       theme: ThemeData(
-        primarySwatch: Colors.lime,
-        accentColor: Colors.limeAccent,
-        textTheme: TextTheme(headline6: TextStyle(fontFamily: "Raleway", fontWeight: FontWeight.bold))
-      ),
+          primarySwatch: Colors.lime,
+          accentColor: Colors.limeAccent,
+          textTheme: TextTheme(
+              headline6: TextStyle(
+                  fontFamily: "Raleway", fontWeight: FontWeight.bold))),
       debugShowCheckedModeBanner: false,
+      routes: {'/category-meal': (ctx) => CategoryMeal()},
     );
   }
 }
