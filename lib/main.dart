@@ -12,7 +12,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.lime,
         accentColor: Colors.limeAccent,
+        textTheme: TextTheme(headline6: TextStyle(fontFamily: "Raleway", fontWeight: FontWeight.bold))
       ),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
