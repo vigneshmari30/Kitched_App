@@ -1,4 +1,4 @@
-#Wed Jun 17 13:12:12 IST 2020
+#Mon Jun 22 14:10:16 IST 2020
 base.0=C\:\\Users\\divya05\\Documents\\Flutter_App\\Kitchen_app\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

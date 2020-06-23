@@ -7,11 +7,11 @@ class CategoryItem extends StatelessWidget {
   final String title;
   final Color color;
 
-  CategoryItem(this.id,this.title, this.color);
+  CategoryItem(this.id, this.title, this.color);
 
   void selectedScreen(context) {
-    Navigator.of(context)
-        .pushNamed(CategoryMeal.mealRoute, arguments: {'id': id, 'title': title});
+    Navigator.of(context).pushNamed(CategoryMeal.mealRoute,
+        arguments: {'id': id, 'title': title});
   }
 
   Widget build(BuildContext context) {
